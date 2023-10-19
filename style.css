@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    width: 100%;
+}
+.container .searchBar {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: #C9F4AA;
+    gap: 40px;
+}
+.searchBar input {
+    width: 40%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.658);
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    border-radius: 10px;
+}
+.searchBar input:focus {
+    background-color: #16FF00;
+    color: #fff;
+}
+.searchBar .btn {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.searchBar .btn:hover {
+    background-color: #16FF00;
+    color: #fff;
+}
+.container .show {
+    margin: 40px;
+}
+.show .title1 {
+    font-size: 40px;
+}
+.show .img1, .img2 {
+    width: 70%;
+    margin: 20px 0;
+}
